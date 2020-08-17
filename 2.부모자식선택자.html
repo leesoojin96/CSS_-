@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>부모자식</title>
+    <style media="screen">
+      ul, ol {
+        background: powderblue;
+      }
+      ul li {
+        color : red;
+      }
+      #lecture > li {
+        border: 1px solid #d720ff;
+        color : #0b77fb;
+      }
+    </style>
+  </head>
+  <body>
+    <ul> <!-- 부모 -->
+      <li>HTML</li>  <!-- 자식 -->
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <ol id="lecture">
+      <li>HTML</li>
+      <li>CSS
+        <ol>
+          <li>selector</li>
+          <li>declaration</li>
+        </ol>
+      </li>
+      <li>JavaScript</li>
+    </ol>
+  </body>
+</html>
